@@ -4,7 +4,7 @@ kismet2earth is composed by 2 utilities written in Python and an empty Sqlite3 d
 
 ## k2db
 
-k2db parses Kismet netxml logs extracting wireless networks informations from them and inserting these data into the database. If the wifi network is already present in the database, the content is updated. This allows add new wifi networks to the database without loosing the old one.
+k2db parses Kismet netxml logs extracting wireless networks informations from them and inserting these data into the database. If the wifi network is already present in the database, the content is updated. This allows add new wifi networks to the database without losing the old one.
 
 ```
 Usage: k2db.py [options]
